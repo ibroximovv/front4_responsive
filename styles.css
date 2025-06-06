@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;   
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav h1 {
+    font-size: 2.5rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+header .first img {
+    width: 100%;
+}
+
+header .first {
+    position: relative;
+}
+
+header .img-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+header .img-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+header .img-content p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.second .second-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5rem;
+    gap: 4rem;
+    padding: 5rem 0;
+}
+
+.second-content a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+}
+
+.second-content p {
+    text-decoration: none;
+    color: #444;
+    font-size: 2rem;
+}
+
+.thrid {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0.5rem;
+}
+
+.thrid .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.thrid .card a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:#444;
+}
+
+.thrid .card h3 {
+    font-size: 3rem;
+    text-decoration: none;
+    color:#000;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5rem;
+    gap: 1rem;
+}
+
+.fourth p {
+    color: #444;
+    font-size: 1.9rem;
+}
+.fourth ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.fourth ul li img {
+    padding-top: 3rem;
+    width: 1rem;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 4.5rem;
+    padding: 2rem;
+}
+
+.five .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.five .card p {
+    color: #444;
+    /* font-size: 1rem; */   
+}
+
+.sixth {
+    padding: 6rem 0;
+    position: relative;
+}
+
+.sixth img {
+    width: 100%;
+}
+
+.sixth-img-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.sixth-img-content h1 {
+    font-size: 6rem;
+}
+
+.sixth-img-content p {
+    font-size: 1.7rem;
+    padding-bottom: 2.5rem;
+}
+
+.sixth-img-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.seven {
+    
+}
+
+.seven-content {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 2rem;
+}
+
+.seven-content p {
+    width: 120rem;
+    color: #444;
+}
+
+.seven-content img {
+    width: 80%;
+}
+
+.eight {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.eight h2 {
+    font-size: 3rem;
+}
+
+.eight p {
+    font-size: 1.2rem;
+}
+
+.eight-card {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px; 
+    padding: 4rem;
+}
+
+.eight-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
