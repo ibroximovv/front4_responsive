@@ -151,7 +151,6 @@ header .img-content p {
 
 .five .card p {
     color: #444;
-    /* font-size: 1rem; */   
 }
 
 .sixth {
@@ -192,14 +191,10 @@ header .img-content p {
     font-size: 2rem;
 }
 
-/* .seven {
-    
-} */
-
 .seven-content {
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    padding: 4rem ;
     text-align: center;
     align-items: center;
     font-size: 3rem;
@@ -207,7 +202,7 @@ header .img-content p {
 }
 
 .seven-content p {
-    width: 120rem;
+    width: 100%;
     color: #444;
 }
 
@@ -303,4 +298,273 @@ footer ul {
     padding: 4rem 4rem 5rem 0;
     gap: 5rem;
     color: #444;
+}
+
+@media (max-width: 769px) {
+    nav {
+        flex-direction: row; 
+        padding: 1rem;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav h1 {
+        font-size: 0.7rem; 
+    }
+
+    nav ul {
+        flex-direction: row; 
+        align-items: center;
+        gap: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 0.7rem; 
+    }
+
+    header .first {
+        position: relative;
+    }
+
+    header .first img {
+        width: 100%;
+        height: auto;
+        max-height: 250px; 
+        object-fit: cover;
+        display: block;
+    }
+
+    header .img-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem; 
+        padding: 0.5rem 1rem;
+        color: #fff;
+        text-align: center;
+        width: 90%; 
+        box-sizing: border-box;
+    }
+
+    header .img-content a,
+    header .img-content p {
+        font-size: 0.7rem;
+    }
+
+    .second .second-content {
+        font-size: 1.5rem; 
+        gap: 2rem;
+        padding: 3rem 1rem; 
+    }
+
+    .second-content a {
+        font-size: 1.2rem; 
+    }
+
+    .second-content p {
+        font-size: 1.2rem; 
+    }
+
+    .thrid {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .thrid .card {
+        width: 100%;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .thrid .card a {
+        font-size: 1.2rem; 
+    }
+
+    .thrid .card h3 {
+        font-size: 2rem; 
+    }
+
+    .fourth {
+        font-size: 1.5rem; 
+        gap: 0.5rem;
+    }
+
+    .fourth p {
+        font-size: 1.2rem; 
+    }
+
+    .fourth ul {
+        flex-wrap: wrap; 
+        gap: 1rem;
+        padding-top: 1rem;
+    }
+
+    .fourth ul li img {
+        width: 0.8rem; 
+        padding-top: 1.5rem;
+    }
+
+    .five {
+        flex-direction: column; 
+        align-items: center;
+        gap: 1rem;
+        font-size: 2rem; 
+        padding: 1.5rem;
+    }
+
+    .five .card {
+        width: 100%;
+        padding: 1rem;
+        gap: 0.8rem;
+    }
+
+    .five .card p {
+        font-size: 1rem; 
+    }
+
+    .sixth {
+        position: relative;
+        padding: 3rem 0;
+        max-width: 100%; 
+        overflow: hidden; 
+    }
+    
+    .sixth img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+    
+    .sixth-img-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 100%;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: center;
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        overflow-wrap: break-word; 
+        word-break: break-word;
+    }
+    
+    .sixth-img-content h1 {
+        font-size: 1rem;
+        margin: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    
+    .sixth-img-content p {
+        font-size: 0.65rem;
+        padding-bottom: 1rem;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    
+    .sixth-img-content a {
+        font-size: 1rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .seven-content {
+        font-size: 1.5rem; 
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .seven-content p {
+        width: 100%; 
+        font-size: 1rem; 
+    }
+
+    .seven-content img {
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    .seven-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .eight h2 {
+        font-size: 2rem; 
+    }
+
+    .eight p {
+        font-size: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .eight-card {
+        grid-template-columns: repeat(3, 1fr); 
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .eight-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nine {
+        font-size: 1rem; 
+        padding: 2rem 1rem; 
+    }
+
+    .nine img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        font-size: 1.6rem;
+        padding: 2rem;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .footer-content ul {
+        gap: 1.5rem;
+    }
+
+    .f2 {
+        width: 100%;
+        gap: 2rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #444;
+    }
+
+    .f2 p {
+        font-size: 1.6rem;
+    }
+
+    footer img {
+        position: absolute;
+        width: 25%;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    footer ul {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.6rem;
+        padding: 2rem;
+        gap: 1.5rem;
+    }   
 }
