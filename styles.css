@@ -192,9 +192,9 @@ header .img-content p {
     font-size: 2rem;
 }
 
-.seven {
+/* .seven {
     
-}
+} */
 
 .seven-content {
     display: flex;
@@ -228,6 +228,7 @@ header .img-content p {
 
 .eight p {
     font-size: 1.2rem;
+    padding: 4rem 0;
 }
 
 .eight-card {
@@ -242,4 +243,13 @@ header .img-content p {
     height: auto;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.nine {
+    font-size: 1.2rem;
+    padding: 4rem 4rem;
+}
+
+.nine img {
+    width: 100%;
 }
