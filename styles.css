@@ -253,3 +253,54 @@ header .img-content p {
 .nine img {
     width: 100%;
 }
+
+footer {
+    background-color: #F9F9F9;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    font-size: 3rem;
+    padding: 4rem ;
+    gap: 4rem;    
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-bottom: 2px solid #444;
+    width: 20%;
+    margin-bottom: 6rem;
+}
+
+.f2 p {
+    font-size: 2rem;
+    color: #444;
+}
+
+footer img {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    padding-right: 4rem;
+    width: 7%;
+}
+
+footer ul {
+    font-size: 2rem;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 4rem 4rem 5rem 0;
+    gap: 5rem;
+    color: #444;
+}
